@@ -2,12 +2,30 @@
 package proyectofinalwiltov;
 
 
-public class SuperHerore {
+public class SuperHeroe {
     protected String nombre= "";
     protected int edad=0;
     protected boolean mataCiviles=false;
     protected double altura=0;
     
+    public SuperHeroe(String nombre, int edad, boolean mataCiviles, double altura) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.mataCiviles = mataCiviles;
+        this.altura = altura;
+    }
+    public SuperHeroe(String nombre, int edad, boolean mataCiviles) {
+        this(nombre, edad, mataCiviles, 0);
+    }
+    public SuperHeroe(String nombre, int edad) {
+        this(nombre, edad, false, 0);
+    }
+    public SuperHeroe(String nombre, boolean mataCiviles, double altura) {
+        this(nombre, 0, mataCiviles, altura);
+    }
+    public SuperHeroe(String nombre, int edad, double altura) {
+        this(nombre, edad, false, altura);
+    }      
     public String getNombre(){
         return nombre;
     }
