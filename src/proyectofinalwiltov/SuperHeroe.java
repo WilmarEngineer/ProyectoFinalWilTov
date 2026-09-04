@@ -14,6 +14,8 @@ public class SuperHeroe {
         this.mataCiviles = mataCiviles;
         this.altura = altura;
     }
+    public SuperHeroe() {
+    }
     public SuperHeroe(String nombre, int edad, boolean mataCiviles) {
         this(nombre, edad, mataCiviles, 0);
     }
