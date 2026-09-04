@@ -32,5 +32,9 @@ public class Hulk extends SuperHeroe{
     public void setEnergiaLiberada(long energiaLiberada){
         this.energiaLiberada = energiaLiberada;
     }
-    
+    @Override
+    public String toString() {
+        return "Nombre: " + nombre + ", Edad: " + edad + ", Mata civiles: " + mataCiviles  + ", Altura: " + altura 
+                + ", Tipo de hulk: " + tipoDeHulk + ", Nivel de furia: " + nivelDeFuria + ", Mantiene el control mental: " + mantieneControlMental + ", Energia liberada:" + energiaLiberada;        
+    }
 }

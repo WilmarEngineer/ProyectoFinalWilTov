@@ -56,5 +56,4 @@ public class SuperMan extends SuperHeroe{
         return "Nombre: " + nombre + ", Edad: " + edad + ", Mata civiles: " + mataCiviles  + ", Altura: " + altura 
                 + ", Nombre Kryptoniano: " + nombreKryptoniano + ", Años de entrenamiento: " + aniosEntrenamiento + ", Viaja en el tiempo: " + viajaEnElTiempo + ", Distancia maxima de vuelo:" + distanciaMaximaVuelo;        
     }
-    
 }
