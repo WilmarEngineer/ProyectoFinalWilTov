@@ -27,7 +27,7 @@ public class IronMan extends SuperHeroe{
     public IronMan(long precioTraje, String nombre, boolean mataCiviles) {
         this("", 0, true, precioTraje, nombre, 0, mataCiviles, 0.0);
     }
-    public String getCreadorTrajeIronman(){
+   public String getCreadorTrajeIronman(){
         return creadorTrajeIronman;
     }
     public void setCreadorTrajeIronman(String creadorTrajeIronman){
