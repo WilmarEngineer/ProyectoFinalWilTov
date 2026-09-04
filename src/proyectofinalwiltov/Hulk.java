@@ -11,7 +11,7 @@ public class Hulk extends SuperHeroe{
     public Hulk() {
         this("", 0, false, 0, "", 0, false, 0.0);
     }
-    public Hulk(String tipoDeHulk, int nivelDeFuria, boolean viajaEnElTiempo, long energiaLiberada, String nombre, int edad, boolean mataCiviles, double altura) {
+    public Hulk(String tipoDeHulk, int nivelDeFuria, boolean mantieneControlMental, long energiaLiberada, String nombre, int edad, boolean mataCiviles, double altura) {
         super(nombre, edad, mataCiviles, altura);
         this.tipoDeHulk = tipoDeHulk;
         this.nivelDeFuria = nivelDeFuria;
