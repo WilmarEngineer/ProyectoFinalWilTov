@@ -7,7 +7,7 @@ public class ProyectoFinalWilTov {
     
     public static void main(String[] args) {
         
-// Se realiza la instanciacion de un primer objeto perteneciente a la Superclase Superheroe
+        // Se realiza la instanciacion de un primer objeto perteneciente a la Superclase Superheroe
         // Se usa el constructor con todos los parametros debido a que se conocen todos los valores de los atributos
         SuperHeroe vengador1 = new SuperHeroe ("Wilmar", 16, false, 1.75);
        
