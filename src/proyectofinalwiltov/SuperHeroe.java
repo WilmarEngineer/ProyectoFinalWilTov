@@ -50,4 +50,8 @@ public class SuperHeroe {
     public void setAltura(double altura){
         this.altura = altura;
     }
+    @Override
+    public String toString() {
+        return "Nombre: " + nombre + ", Edad: " + edad + ", Mata civiles: " + mataCiviles  + ", Altura: " + altura;        
+    }
 }
