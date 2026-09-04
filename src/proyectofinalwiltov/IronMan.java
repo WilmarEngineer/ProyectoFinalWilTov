@@ -51,4 +51,9 @@ public class IronMan extends SuperHeroe{
     public void setPrecioTraje(long precioTraje){
         this.precioTraje = precioTraje;
     }
+    @Override
+    public String toString() {
+        return "Nombre: " + nombre + ", Edad: " + edad + ", Mata civiles: " + mataCiviles  + ", Altura: " + altura 
+                + ", Creador  del traje: " + creadorTrajeIronman+ ", Version: " + version+ ", Volador: " + volador+ ", Precio del traje: " + precioTraje;        
+    }
 }
