@@ -9,7 +9,7 @@ public class IronMan extends SuperHeroe{
     private long precioTraje=0;
     
    public IronMan() {
-        this("", 0, false, 0L, "", 0, false, 0.0);
+        this("", 0, true, 0, "", 0, false, 0.0);
    }
     public IronMan(String creadorTrajeIronman, int version, boolean volador, long precioTraje, String nombre, int edad, boolean mataCiviles, double altura) {
         super(nombre, edad, mataCiviles, altura);

@@ -7,6 +7,26 @@ public class SuperMan extends SuperHeroe{
     private int aniosEntrenamiento=0;
     private boolean viajaEnElTiempo = false;
     private long distanciaMaximaVuelo=0;
+    
+    public SuperMan() {
+        this("", 0, false, 0, "", 0, false, 0.0);
+   }
+    public SuperMan(String nombreKryptoniano, int aniosEntrenamiento, boolean viajaEnElTiempo, long distanciaMaximaVuelo, String nombre, int edad, boolean mataCiviles, double altura) {
+        super(nombre, edad, mataCiviles, altura);
+        this.nombreKryptoniano = nombreKryptoniano;
+        this.aniosEntrenamiento = aniosEntrenamiento;
+        this.viajaEnElTiempo = viajaEnElTiempo;
+        this.distanciaMaximaVuelo = distanciaMaximaVuelo;
+    }
+    public SuperMan(String nombreKryptoniano, int aniosEntrenamiento, boolean viajaEnElTiempo, long distanciaMaximaVuelo, String nombre, int edad, boolean mataCiviles) {
+        this(nombreKryptoniano, aniosEntrenamiento, viajaEnElTiempo, distanciaMaximaVuelo, nombre, edad, mataCiviles, 0.0);
+    }
+    public SuperMan(String nombreKryptoniano, int aniosEntrenamiento, long distanciaMaximaVuelo, String nombre, boolean mataCiviles) {
+        this(nombreKryptoniano, aniosEntrenamiento, true, distanciaMaximaVuelo, nombre, 0, mataCiviles, 0.0);
+    }
+    public SuperMan(long distanciaMaximaVuelo, String nombre, boolean mataCiviles) {
+        this("", 0, true, distanciaMaximaVuelo, nombre, 0, mataCiviles, 0.0);
+    }
     public String getNombreKryptoniano(){
         return nombreKryptoniano;
     }
