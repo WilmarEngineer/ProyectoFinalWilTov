@@ -8,6 +8,25 @@ public class Hulk extends SuperHeroe{
     private boolean mantieneControlMental=false;
     private long energiaLiberada=0;
     
+    public Hulk() {
+        this("", 0, false, 0, "", 0, false, 0.0);
+    }
+    public Hulk(String tipoDeHulk, int nivelDeFuria, boolean viajaEnElTiempo, long energiaLiberada, String nombre, int edad, boolean mataCiviles, double altura) {
+        super(nombre, edad, mataCiviles, altura);
+        this.tipoDeHulk = tipoDeHulk;
+        this.nivelDeFuria = nivelDeFuria;
+        this.mantieneControlMental = mantieneControlMental;
+        this.energiaLiberada = energiaLiberada;
+    }
+    public Hulk(String tipoDeHulk, int nivelDeFuria, boolean mantieneControlMental, long energiaLiberada, String nombre, int edad, boolean mataCiviles) {
+        this(tipoDeHulk, nivelDeFuria, mantieneControlMental, energiaLiberada, nombre, edad, mataCiviles, 0.0);
+    }
+    public Hulk(String tipoDeHulk, int nivelDeFuria, long energiaLiberada, String nombre, boolean mataCiviles) {
+        this(tipoDeHulk, nivelDeFuria, true, energiaLiberada, nombre, 0, mataCiviles, 0.0);
+    }
+    public Hulk(long distanciaMaximaVuelo, String nombre, boolean mataCiviles) {
+        this("", 0, true, distanciaMaximaVuelo, nombre, 0, mataCiviles, 0.0);
+    }
     public String getTipoDeHulk(){
         return tipoDeHulk;
     }

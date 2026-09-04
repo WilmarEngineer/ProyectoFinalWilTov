@@ -10,7 +10,7 @@ public class SuperMan extends SuperHeroe{
     
     public SuperMan() {
         this("", 0, false, 0, "", 0, false, 0.0);
-   }
+    }
     public SuperMan(String nombreKryptoniano, int aniosEntrenamiento, boolean viajaEnElTiempo, long distanciaMaximaVuelo, String nombre, int edad, boolean mataCiviles, double altura) {
         super(nombre, edad, mataCiviles, altura);
         this.nombreKryptoniano = nombreKryptoniano;
