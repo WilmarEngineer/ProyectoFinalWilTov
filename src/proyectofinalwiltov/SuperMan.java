@@ -54,6 +54,6 @@ public class SuperMan extends SuperHeroe{
     @Override
     public String toString() {
         return "Nombre: " + nombre + ", Edad: " + edad + ", Mata civiles: " + mataCiviles  + ", Altura: " + altura 
-                + ", Nombre Kryptoniano: " + nombreKryptoniano + ", Años de entrenamiento: " + aniosEntrenamiento + ", Viaja en el tiempo: " + viajaEnElTiempo + ", Distancia maxima de vuelo:" + distanciaMaximaVuelo;        
+                + ", Nombre Kryptoniano: " + nombreKryptoniano + ", Anios de entrenamiento: " + aniosEntrenamiento + ", Viaja en el tiempo: " + viajaEnElTiempo + ", Distancia maxima de vuelo:" + distanciaMaximaVuelo;        
     }
 }

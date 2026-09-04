@@ -39,7 +39,30 @@ public class ProyectoFinalWilTov {
         // Se usa el constructor con cero parametros debido a que no se conoce ningnun valor de los atributos
         Hulk hulk2 = new Hulk();
         
+        //IMPRESION POR CONSOLA 
+        System.out.println("-------------------------------------------------------------------------------------");
+        System.out.println("Superheroe 1 " + vengador1 );
+        System.out.println("Superheroe 2 " + vengador2 );
+        System.out.println("-------------------------------------------------------------------------------------");
         
+        //IMPRESION POR CONSOLA 
+        System.out.println("-------------------------------------------------------------------------------------");
+        System.out.println("Ironman 1 " + ironman1 );
+        System.out.println("Ironman 2 " + ironman2 );
+        System.out.println("-------------------------------------------------------------------------------------");
+        
+        //IMPRESION POR CONSOLA 
+        System.out.println("-------------------------------------------------------------------------------------");
+        System.out.println("Superman 1 " + superman1 );
+        System.out.println("Superman 2 " + superman2 );
+        System.out.println("-------------------------------------------------------------------------------------");
+        
+        //IMPRESION POR CONSOLA 
+        System.out.println("-------------------------------------------------------------------------------------");
+        System.out.println("Hulk 1 " + hulk1 );
+        System.out.println("Hulk 2 " + hulk2 );
+        System.out.println("-------------------------------------------------------------------------------------");
+   
     }
     
 }
